@@ -1,2 +1,4 @@
 # CodigosTemas
-Códigos Repaso Programación Basica ---
+Códigos Repaso Programación Basica
+Carlos Montenegro
+ ---
