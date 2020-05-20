@@ -1,0 +1,2 @@
+-I/Users/carlosmontenegromarin/Documents/CodigosTemas/Tema9-6
+-DNDEBUG
