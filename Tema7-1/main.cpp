@@ -21,11 +21,11 @@ int main(int argc, char** argv) {
 	funcion02(12);
 	int a = funcion03();                         
 	printf("mensaje del main: %d\n",a);
-	int b = funcion04(a,3); 
+  int b = funcion04(a,3); 
 	printf("mensaje del main: %d\n",b);
-	b = funcion04(a); 
+  b = funcion04(a); 
 	printf("mensaje del main: %d\n",b);
-
+  
 	return 0;
 }
 

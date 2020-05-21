@@ -1,6 +1,6 @@
 #include <iostream>
 #include <sstream>
-#include <string>
+#include <cstring>
 
 using namespace std;
 
@@ -13,6 +13,7 @@ int main(int argc, char** argv) {
 	int a = 0;  // 10, 100, 0
 	printf("Ingrese su numero: ");
 	scanf("%d",&a);
+  //cin >> a;
 	int c = funcionfor(a);
 	printf("resultado for: %d \n",c);
 	int d = funcionwhile(a);
