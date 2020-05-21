@@ -11,7 +11,7 @@ int main(int argc, char **argv)
         cin >> numId;
         if (numId < 1000 | numId > 1999){
             cout << "Numero no valido" << endl;
-            cout << "Por favo, introduzca otro numero: ";
+            cout << "Por favor, introduzca otro numero: ";
         }
         else{
             break;

@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
 
 	cout << "miremos el primero: " << argc << "\n";
 	cout << "miremos el segundo: " << argv[0] << "\n";
-	cout << "miremos el segundo: " << argv[1] << "\n\n\n";
+	cout << "miremos el segundo: " << argv[1] <<"\n\n\n";
 	
 	funcion01();
 	funcion02(12);

@@ -2,13 +2,7 @@
 
 using namespace std;
 
-void burbuja();void multmat();
-
-int main(int argc, char** argv) {
-	burbuja();
-	multmat();
-	return 0;
-}
+//void burbuja();void multmat();
 
 void multmat(){
 	int a[3][2];
@@ -33,7 +27,7 @@ void multmat(){
 
 	for(int i=0;i<2;i++){
 		for(int j=0;j<2;j++){
-			cout<<"c["<<i+1<<"]["<<j+1<<"]:"<<c[i][j]<<endl;
+			cout<<"c["<<i<<"]["<<j<<"]:"<<c[i][j]<<endl;
 		}
 	}
 }
@@ -43,7 +37,7 @@ void burbuja(){
 	int a[] = {6,9,4,3,12};
     for (int i=0; i<num; i++)
         cout << a[i] << " , ";
-    cout << endl;
+    cout << endl; 
 	for(int i=0;i<num-1;i++){
 		for(int j=i+1;j<num;j++){
 			cout<<i<<":"<<a[i]<<" - "<<j<<":"<<a[j]<<endl;	
@@ -61,3 +55,10 @@ void burbuja(){
 		cout<<i<<":"<<a[i]<<endl;
 	}
 }
+
+int main(int argc, char** argv) {
+	burbuja();
+	multmat();
+	return 0;
+}
+
