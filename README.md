@@ -1,3 +1,3 @@
 # CodigosTemas
-Códigos Repaso Programación Basica
+Códigos Repaso Programación Basica Para estudiantes de POO
  ---
