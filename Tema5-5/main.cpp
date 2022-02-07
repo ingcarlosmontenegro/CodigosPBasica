@@ -7,7 +7,7 @@ int main(int argc, char **argv)
 	int potencia = 1;
     do {
         cout << potencia << "\n";
-        potencia *= 2;
+        potencia *= 2; //potencia = potencia * 2; 
     }
     while (potencia < 1000);
 }

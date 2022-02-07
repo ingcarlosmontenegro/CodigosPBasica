@@ -49,7 +49,7 @@ int main() {
   }
 
   Compara:
-  if (na = n)
+  if (na == n)
     cout << "Te mantienes" << endl;
   else if (na < n)
     cout << "Desciendes" << endl;

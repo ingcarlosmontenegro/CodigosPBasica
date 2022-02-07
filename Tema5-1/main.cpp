@@ -16,7 +16,7 @@ int main (void){
 
 		Suma=Suma+nota;
 
-		AlumnosLeidos = AlumnosLeidos +1;
+		AlumnosLeidos = AlumnosLeidos + 1;
 	}
 
 	Media = Suma/NumAlumnos;

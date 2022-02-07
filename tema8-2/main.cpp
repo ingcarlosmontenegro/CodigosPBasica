@@ -31,7 +31,7 @@ void VectorAleatorio(int V1[]);
 
 int main(int argc, char** argv) {
     cout << "Valor Pi: ";
-	printf("%f\n",PI);
+	  printf("%f\n",PI);
     cout << "Llamado a la funcion Struct desde el main \n";
     funcionStruct();
     cout << "Llamado a la funcion MedirMatrices desde el main \n";
@@ -63,7 +63,7 @@ int main(int argc, char** argv) {
 
 }
 
-int *retornaArreglo(){
+int * retornaArreglo(){
 	int *array1 = new int[5];
 	int a[5] = {1, 2, 3, 4, 5};
     
@@ -133,7 +133,7 @@ bool esprimo(int a){
 }
 
 void funcionStruct(){
-    cout << "Creación de estructura Persona" << endl;
+  cout << "Creación de estructura Persona" << endl;
 	Persona persona1;
 	cout<<"Ingrese su nombre: ";
 	cin>>persona1.Nombre;

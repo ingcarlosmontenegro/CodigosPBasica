@@ -18,14 +18,14 @@ int main(int argc, char **argv)
     cout << s << ":" << car << endl ; 
     
     char cad[] = "hola"; 
-	s = cad ; 
+	  s = cad ; 
     s = s + ", mundo"; 
     cout << s << endl;
     
     cad[6]; 
     s = "mundo"; 
 	// OJO: debe haber sitio suficiente en ’cad’ de -> s a cad 
-	strcpy(cad, s.c_str());
+	  strcpy(cad, s.c_str());
     cout << cad << endl;
 
     int n=100; 

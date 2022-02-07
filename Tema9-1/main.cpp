@@ -25,12 +25,11 @@ void transformar (string cadena2, unsigned& num2){
  }
 }
 
-
 int main() {
  string cadena;
  unsigned num;
  leerCadena(cadena);
  transformar(cadena, num);
- cout << "El número con el que se corresponde es el: "<< num +1 ;
+ cout << "El número con el que se corresponde es el: "<< num + 1 ;
  return 0;
 }

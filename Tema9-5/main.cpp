@@ -5,7 +5,7 @@ using namespace std;
 int main ()
 {
 	string nombre ;
-    string apellido ;
+  string apellido ;
 	cout << "¿Cuál es su nombre para captura con cin >> ";
     // captura con cin 
     cin >> nombre;

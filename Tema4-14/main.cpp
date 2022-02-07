@@ -19,7 +19,7 @@ int main(int argc, char **argv)
             cout << "Tiene 3 Digito " << "\n";
         break;}
         default:
-            cout << "Tidne mas de 3 Digitos " << "\n";
+            cout << "Tiene mas de 3 Digitos " << "\n";
     }
 	return 0;
 }

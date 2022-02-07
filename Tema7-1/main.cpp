@@ -48,8 +48,6 @@ void funcionif(int edad){
 	} else {
 		printf("Usted tiene cedula!");
 	}
-    
-    
     if(edad < 18){
 		printf("Menor de Edad!");
 	} else if(edad < 28){

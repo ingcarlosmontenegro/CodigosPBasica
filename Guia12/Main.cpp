@@ -34,5 +34,4 @@ if (i<j){
 else {
   printf("Palindromo");
 }
-
 }

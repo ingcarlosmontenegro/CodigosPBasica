@@ -11,7 +11,7 @@ int main(int argc, char **argv)
     cout << "El numero inverso es: ";
     do{
         digitoSig = num % 10;
-        cout << digitoSig;
+        cout << digitoSig; 
         num = num / 10;
     }
     while (num > 0);
